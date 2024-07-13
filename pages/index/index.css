@@ -16,7 +16,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-sizing: border-box; /* 헤더 안의 패딩을 포함한 너비 계산 */
+    box-sizing: border-box;
 }
 
 .logo img {
@@ -64,7 +64,7 @@ nav a {
 .hero {
     position: relative;
     height: 70vh;
-    background: url('image/배경 페페.jpg') center/cover no-repeat;
+    background: url('assets/image/배경 페페.jpg') center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
