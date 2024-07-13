@@ -39,4 +39,13 @@ function scrollRight(button) {
     rowInner.scrollBy({ left: 241.128, behavior: 'smooth' });
 }
 
+function ServiceCode(){
+    const ServicodeValue = document.getElementById('ServicecodeValue');
+    ServicodeValue.value = "123-456";
+}
+
+document.getElementById("service-code-btn").addEventListener("click", function() {
+    this.innerText = "123-567";
+});
+
 

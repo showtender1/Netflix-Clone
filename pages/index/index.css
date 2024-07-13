@@ -170,11 +170,54 @@ nav a {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Hide the scrollbar */
 .row-inner::-webkit-scrollbar {
     display: none;
 }
+
 .row-inner {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+footer {
+    background-color: #141414;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .social-media a {
+    margin: 10px;
+}
+
+footer .left-aligned {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer .social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+footer .social-media img:hover {
+    transform: scale(1.2);
+}
+
+footer table td a {
+    color: #808080;
+    text-decoration: none;
+}
+
+footer #service-code-btn {
+    background-color: #141414;
+    color: #808080;
+    border-color: #808080;
+    width: 136.36px;
+    height: 45.53px;
+    cursor: pointer;
+}
+
+footer #service-code {
+    font-size: 1.2em;
 }
