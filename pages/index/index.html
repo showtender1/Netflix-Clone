@@ -27,66 +27,96 @@
     </header>
     <main>
         <section class="hero">
-            <h1>페페 더 프로그</h1>
-            <button onclick="window.location.href='https://www.youtube.com/watch?v=jmZSZDpmjtY'">▶️ 재생</button>
-            <button onclick="window.location.href='https://namu.wiki/w/%ED%8E%98%ED%8E%98(1983)'">ℹ️ 상세 정보</button>
+            <img src="../../assets/image/backgrownd-title-image.webp" alt="backgrownd-title-image" class="inner-image">
+            <div class="buttons">
+                <button onclick="window.location.href='https://www.youtube.com/watch?v=jmZSZDpmjtY'" class="play-button">▶️ 재생</button>
+                <button onclick="window.location.href='https://namu.wiki/w/%ED%8E%98%ED%8E%98(1983)'" class="info-button"><span class="info-icon">ⓘ</span>  상세 정보</button>
+            </div>
         </section>
         <section class="row">
-            <h2>오늘 대한민국의 TOP 10 시리즈</h2>
-            <div class="row-inner">
-                <div class="movie">
-                    <a href="https://www.youtube.com/watch?v=TNhwFvfySe0">
-                        <img src="C:\Users\User\Desktop\코딩\html\netflix\assets\image\movie-banner 1.png" alt="Movie 1" class="movie-image" onmouseover="changeImage(this, 'C:\Users\User\Desktop\코딩\html\netflix\assets\image\movie1.gif')" onmouseout="changeImage(this, 'C:\Users\User\Desktop\코딩\html\netflix\assets\image\movie-banner 1.png')">
-                    </a>
+            <h2>미국 초자연 호러 영화</h2>
+            <div class="row-wrapper">
+                <button class="scroll-button left-button" onclick="scrollLeft(this)">&#9664;</button>
+                <div class="row-inner">
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=TNhwFvfySe0">
+                            <img src="../../assets/image/movie-banner 1.webp" alt="Movie 1" class="movie-image">
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=QtBtRHLSjJw">
+                            <img src="../../assets/image/movie-banner 2.webp" alt="Movie 2" class="movie-image">
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=XDPte4SAS3A">
+                            <img src="../../assets/image/movie-banner 3.webp" alt="Movie 3" class="movie-image">
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=900X9fDFLc4">
+                            <img src="../../assets/image/movie-banner 4.webp" alt="Movie 4" class="movie-image">
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=pH_1TbrFZB8">
+                            <img src="../../assets/image/movie-banner 5.webp" alt="Movie 5" class="movie-image">
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=2c7mEizMufI">
+                            <img src="../../assets/image/movie-banner 6.webp" alt="Movie 6" class="movie-image">
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=2c7mEizMufI">
+                            <img src="../../assets/image/movie-banner 7.jpg" alt="Movie 7" class="movie-image">
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=2c7mEizMufI">
+                            <img src="../../assets/image/movie-banner 8.webp" alt="Movie 8" class="movie-image">
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=2c7mEizMufI">
+                            <img src="../../assets/image/movie-banner 9.jpg" alt="Movie 9" class="movie-image">
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=2c7mEizMufI">
+                            <img src="../../assets/image/movie-banner 10.webp" alt="Movie 10" class="movie-image">
+                        </a>
+                    </div>
                 </div>
-                <div class="movie">
-                    <a href="https://www.youtube.com/watch?v=QtBtRHLSjJw">
-                        <img src="assets/image/movie-banner 2.png" alt="Movie 2" class="movie-image" onmouseover="changeImage(this, 'assets/image/movie2.gif')" onmouseout="changeImage(this, 'assets/image/movie-banner 2.png')">
-                    </a>
-                </div>
-                <div class="movie">
-                    <a href="https://www.youtube.com/watch?v=XDPte4SAS3A">
-                        <img src="assets/image/movie-banner 3.png" alt="Movie 3" class="movie-image" onmouseover="changeImage(this, 'assets/image/movie3.gif')" onmouseout="changeImage(this, 'assets/image/movie-banner 3.png')">
-                    </a>
-                </div>
-                <div class="movie">
-                    <a href="https://www.youtube.com/watch?v=900X9fDFLc4">
-                        <img src="assets/image/movie-banner 4.png" alt="Movie 4" class="movie-image" onmouseover="changeImage(this, 'assets/image/movie4.gif')" onmouseout="changeImage(this, 'assets/image/movie-banner 4.png')">
-                    </a>
-                </div>
-                <div class="movie">
-                    <a href="https://www.youtube.com/watch?v=pH_1TbrFZB8">
-                        <img src="assets/image/movie-banner 5.png" alt="Movie 5" class="movie-image" onmouseover="changeImage(this, 'assets/image/movie5.gif')" onmouseout="changeImage(this, 'assets/image/movie-banner 5.png')">
-                    </a>
-                </div>
-                <div class="movie">
-                    <a href="https://www.youtube.com/watch?v=2c7mEizMufI">
-                        <img src="assets/image/movie-banner 6.png" alt="Movie 6" class="movie-image" onmouseover="changeImage(this, 'assets/image/movie6.gif')" onmouseout="changeImage(this, 'assets/image/movie-banner 6.png')">
-                    </a>
-                </div>
+                <button class="scroll-button right-button" onclick="scrollRight(this)">&#9654;</button>
             </div>
         </section>
         <section class="row">
             <h2>꼭 챙겨 보세요! 회원님을 위한 콘텐츠</h2>
-            <div class="row-inner">
-                <div class="movie">
-                    <a href="https://www.youtube.com/watch?v=TNhwFvfySe0"><img src="assets/image/movie-banner 1.png" alt="Movie 1"></a>
+            <div class="row-wrapper">
+                <button class="scroll-button left-button" onclick="scrollLeft(this)">&#9664;</button>
+                <div class="row-inner">
+                    <div class="movie">
+                        <img src="../../assets/image/movie-banner 1.webp" alt="Movie 1">
+                    </div>
+                    <div class="movie">
+                        <img src="../../assets/image/movie-banner 2.webp" alt="Movie 2">
+                    </div>
+                    <div class="movie">
+                        <img src="../../assets/image/movie-banner 3.webp" alt="Movie 3">
+                    </div>
+                    <div class="movie">
+                        <img src="../../assets/image/movie-banner 4.webp" alt="Movie 4">
+                    </div>
+                    <div class="movie">
+                        <img src="../../assets/image/movie-banner 5.webp" alt="Movie 5">
+                    </div>
+                    <div class="movie">
+                        <img src="../../assets/image/movie-banner 6.webp" alt="Movie 6">
+                    </div>
                 </div>
-                <div class="movie">
-                    <a href="https://www.youtube.com/watch?v=QtBtRHLSjJw"><img src="assets/image/movie-banner 2.png" alt="Movie 2"></a>
-                </div>
-                <div class="movie">
-                    <a href="https://www.youtube.com/watch?v=XDPte4SAS3A"><img src="assets/image/movie-banner 3.png" alt="Movie 2"></a>
-                </div>
-                <div class="movie">
-                    <a href="https://www.youtube.com/watch?v=900X9fDFLc4"><img src="assets/image/movie-banner 4.png" alt="Movie 2"></a>
-                </div>
-                <div class="movie">
-                    <a href="https://www.youtube.com/watch?v=pH_1TbrFZB8"><img src="assets/image/movie-banner 5.png" alt="Movie 2"></a>
-                </div>
-                <div class="movie">
-                    <a href="https://www.youtube.com/watch?v=2c7mEizMufI"><img src="assets/image/movie-banner 6.png" alt="Movie 2"></a>
-                </div>
+                <button class="scroll-button right-button" onclick="scrollRight(this)">&#9654;</button>
             </div>
         </section>
     </main>

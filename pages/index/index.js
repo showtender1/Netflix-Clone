@@ -29,6 +29,14 @@ function scrollToTop(event) {
         behavior: 'smooth'
     });
 }
-function changeImage(element, newSrc) {
-    element.src = newSrc;
+function scrollLeft(button) {
+    const rowInner = button.parentElement.querySelector('.row-inner');
+    rowInner.scrollBy({ left: -241.128, behavior: 'smooth' });
 }
+
+function scrollRight(button) {
+    const rowInner = button.parentElement.querySelector('.row-inner');
+    rowInner.scrollBy({ left: 241.128, behavior: 'smooth' });
+}
+
+
