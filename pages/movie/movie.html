@@ -8,21 +8,51 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo">
+        <div class="top-section">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="C:\Users\User\Desktop\코딩\html\netflix\pages\index\index.html">홈</a></li>
+                    <li><a href="C:\Users\User\Desktop\코딩\html\netflix\pages\index\index.html">시리즈</a></li>
+                    <li><a href="#" onclick="scrollToTop(event)">영화</a></li>
+                    <li><a href="C:\Users\User\Desktop\코딩\html\netflix\pages\new\new.html">NEW! 요즘 대세 콘텐츠</a></li>
+                    <li><a href="C:\Users\User\Desktop\코딩\html\netflix\pages\jjim\jjim.html">내가 찜한 리스트</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="검색...">
+                <button type="button" onclick="searchMovie()">검색</button>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="C:\Users\User\Desktop\코딩\html\netflix\pages\index\index.html">홈</a></li>
-                <li><a href="C:\Users\User\Desktop\코딩\html\netflix\pages\index\index.html">시리즈</a></li>
-                <li><a href="#" onclick="scrollToTop(event)">영화</a></li>
-                <li><a href="C:\Users\User\Desktop\코딩\html\netflix\pages\new\new.html">NEW! 요즘 대세 콘텐츠</a></li>
-                <li><a href="C:\Users\User\Desktop\코딩\html\netflix\pages\jjim\jjim.html">내가 찜한 리스트</a></li>
-            </ul>
-        </nav>
-        <div class="search-bar">
-            <input type="text" id="search-input" placeholder="검색...">
-            <button type="button" onclick="searchMovie()">검색</button>
+        <div class="bottom-section">
+            <span style="font-size: 26pt;">영화&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <select>
+                <option value="" disabled selected>장르</option>
+                    <option value="액션1">브리저튼을 좋아한다면</option>
+                    <option value="액션2">한국</option>
+                    <option value="액션3">미국 영화</option>
+                    <option value="액션4">해외</option>
+                    <option value="액션4">어워드 수상</option>
+                    <option value="액션4">인디</option>
+                    <option value="액션4">어린이 & 가족</option>
+                    <option value="액션4">애니메이션</option>
+                    <option value="코미디1">액션</option>
+                    <option value="코미디2">코미디</option>
+                    <option value="코미디3">로맨스</option>
+                    <option value="코미디4">스릴러</option>
+                    <option value="코미디1">호러</option>
+                    <option value="코미디1">SF</option>
+                    <option value="코미디1">판타지</option>
+                    <option value="코미디1">드라마 장르</option>
+                    <option value="드라마1">범죄</option>
+                    <option value="드라마2">스포츠 영화</option>
+                    <option value="드라마3">다큐멘터리</option>
+                    <option value="드라마4">음악 / 뮤지컬</option>
+                    <option value="코미디1">고전</option>
+                    <option value="코미디1">단편 영화</option>
+            </select>
         </div>
     </header>
     <main>
