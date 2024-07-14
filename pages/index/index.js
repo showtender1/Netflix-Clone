@@ -18,10 +18,6 @@ function searchMovie() {
     }
 }
 
-function changeImage(element, newSrc) {
-    element.src = newSrc;
-}
-
 function scrollToTop(event) {
     event.preventDefault();
     window.scrollTo({
